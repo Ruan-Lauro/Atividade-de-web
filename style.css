@@ -53,8 +53,8 @@ li{
 }
 
 .po{
-    word-spacing: 1px;
-    margin-right: 4px;
+    padding: 0px 5px;
+    border-right: 1px solid white;
 }
 
 .po:hover{
@@ -63,6 +63,7 @@ li{
 
 #contato{
     margin-right: 20px;
+    padding: 0 4px;
 }
 
 #contato:hover{
@@ -124,5 +125,12 @@ footer{
 @media (max-width: 755px){
     body{
         margin: 90px 0;
+    }
+}
+
+@media (max-width: 610px){
+    div{
+        width: 150px;
+        height: 150px;
     }
 }
